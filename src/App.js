@@ -7,6 +7,8 @@ import SearchCourse from './components/SearchCourse';
 import ViewCourse from './components/ViewCourse';
 
 
+
+
 function App() {
   return (
     <div >
@@ -14,6 +16,8 @@ function App() {
     <Routes>
       <Route path='/' element={<AddCourse/>}/>
       <Route path='/search' element={<SearchCourse/>}/>
+      
+    
       
       <Route path='/Viewcourse' element={<ViewCourse/>}/>
     </Routes>
